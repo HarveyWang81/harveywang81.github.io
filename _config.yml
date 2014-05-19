@@ -13,5 +13,9 @@ markdown_ext:  md
 redcarpet:
     extensions: [no_intra_emphasis,tables,autolink,disable_indented_code_blocks,fenced_code_blocks]
 
+markdown: redcarpet
+redcarpet: 
+    extensions: ["tables"]
+
 exclude: ['README.md', '.*']
 
